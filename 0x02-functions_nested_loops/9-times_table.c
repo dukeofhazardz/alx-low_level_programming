@@ -5,7 +5,7 @@
  *
  * Return: Always 0.
  */
-int times_table(void)
+void times_table(void)
 {
 	int a, b, c;
 
