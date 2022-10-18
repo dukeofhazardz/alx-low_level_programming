@@ -1,5 +1,4 @@
-#include <stdio.h>
-#define MAXSTRING 80
+#include "main.h"
 /**
  * main - Entry point
  *
@@ -9,18 +8,15 @@
  */
 int main(void)
 {
-	char text[] = "_putchar";
-	int i;
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 
-	for (i = 0 ; i < MAXSTRING ; i++)
-	{
-		if (text[i] == '\0')
-		{
-			putchar('\n');
-			break;
-		}
-		else
-			putchar(text[i]);
-	}
 	return (0);
 }
