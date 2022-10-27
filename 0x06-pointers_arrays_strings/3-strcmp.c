@@ -27,11 +27,18 @@ int _strcmp(char *s1, char *s2)
 		s2++;
 
 		if (flag == 0)
+		{
 			return (0);
+		}
 
 		else if (flag == 2)
+		{
 			return (-15);
+		}
 
 		else
+		{
 			return (15);
+		}
+	}
 }
