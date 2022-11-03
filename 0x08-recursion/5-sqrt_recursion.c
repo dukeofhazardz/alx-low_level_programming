@@ -13,7 +13,7 @@ int square_root(int a, int b)
 	{
 		return (-1);
 	}
-	if (b * b == 0)
+	if (b * b == a)
 	{
 		return (b);
 	}
