@@ -5,7 +5,8 @@
 /**
  * main - The main function.
  * @argc: The arguement counter.
- * @argv: The arguement vector
+ * @argv: The arguement vector.
+ * Return: Always 0.
  */
 
 int main(int argc, char *argv[])
