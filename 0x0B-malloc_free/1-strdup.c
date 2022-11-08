@@ -11,9 +11,9 @@
 
 char *_strdup(char *str)
 {
-	int i, len;
+	int i = 0;
+	int j;
 	char *dup;
-	char *dupl;
 
 	if (str == NULL)
 	{
@@ -21,26 +21,19 @@ char *_strdup(char *str)
 	}
 	while (str[i] != '\0')
 	{
-		len++;
 		i++;
 	}
-	dup = malloc((len + 1) * sizeof(char));
+	dup = malloc((i + 1) * sizeof(char));
 
 	if (dup == NULL)
 	{
 		return (NULL);
 	}
 
-	dupl = dup;
-	while (*str)
+	for (j = 0; j < i; j++)
 	{
-		*dupl = *str;
-		dupl++;
-		str++;
+		ptr[j] = str[j];
 	}
-	*dupl = '\0';
-
-	free(dup);
 
 	return (dup);
 }
