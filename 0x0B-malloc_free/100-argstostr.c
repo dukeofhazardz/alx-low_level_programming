@@ -43,6 +43,7 @@ char *argstostr(int ac, char **av)
 			k++;
 		}
 		ptr[k] = '\n';
+		k++;
 	}
 	ptr[k] = '\0';
 
