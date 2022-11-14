@@ -3,12 +3,12 @@
 
 /**
  * File - dog.h
- * struc dog - structure of dog
+ * struct dog - structure of dog
  * @name: name of dog
  * @age: age of dog
- * owner: owner of dog
+ * @owner: owner of dog
  * Author - Daniel John
- * Description: Header file contains elements for struct dog
+ * Description - structure of dog
  */
 
 struct dog
