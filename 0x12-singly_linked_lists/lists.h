@@ -11,7 +11,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-/**
+/*
  * struct list_s - singly linked list
  * @str: string - (malloc'ed string)
  * @len: length of the string
@@ -24,6 +24,10 @@ typedef struct list_s
 {
 	char *str;
 	unsigned int len;
+	/*
+	 * list_s - points to the next element
+	 * @next: points to the next node.
+	 */
 	struct list_s *next;
 } list_t;
 
