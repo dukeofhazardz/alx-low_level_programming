@@ -21,6 +21,7 @@ unsigned int binary_to_uint(const char *b)
 		b++;
 	}
 	b--;
+	i = 0;
 	power = 0;
 	sum = 0;
 	value = 0;
