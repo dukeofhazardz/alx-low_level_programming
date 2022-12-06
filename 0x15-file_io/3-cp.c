@@ -52,7 +52,8 @@ void copy_file(const char *file_from, const char *file_to)
 
 /**
  * main - check the code
- *
+ * @ac: Arguement counter
+ * @av: String arguement
  * Return: Always 0.
  */
 
