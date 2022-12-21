@@ -21,8 +21,10 @@ int main(void)
 		}
 		prime++;
 	}
-	/* Prining last or largest prime factor of the
-	 * number 612852475143, followed by a new line.*/
+	/*
+	 * Prining last or largest prime factor of the
+	 * number 612852475143, followed by a new line.
+	 */
 	printf("%u\n", prime);
 	return (0);
 }
