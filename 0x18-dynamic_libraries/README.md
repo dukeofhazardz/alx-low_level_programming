@@ -1,1 +1,1 @@
-A readme on dynamic libraries in c programming
+A readme on dynamic library in c programming
