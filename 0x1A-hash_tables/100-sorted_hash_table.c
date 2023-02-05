@@ -201,7 +201,7 @@ void shash_table_delete(shash_table_t *ht)
 
 	if (ht == NULL)
 		return;
-	
+
 	node = ht->shead;
 	while (node)
 	{
