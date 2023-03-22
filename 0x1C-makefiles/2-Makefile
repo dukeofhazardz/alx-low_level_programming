@@ -5,4 +5,4 @@ SRC=$(wildcard *.c)
 OBJ=$(SRC:.c=.o)
 NAME=school
 all: $(OBJ)
-	$(CC) $(SRC) -o $(NAME)
+	$(CC) $(OBJ) -o $(NAME)
